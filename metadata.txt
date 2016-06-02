@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.
+# Mandatory items:
+  
+[general]
+name=Bulk Style Export
+qgisMinimumVersion=2.0
+description=Applies a subset to the layer of choice.
+version=0.9
+author=Yury Ryabov
+email=riabovvv@gmail.com
+# End of mandatory metadata
+  
+# Recommended items:
+    
+# Uncomment the following line and add your changelog:
+# changelog=
+      
+# Tags are comma separated with spaces allowed
+tags=style, qml, export
+      
+about= Allows user to export styles for all the layers of the current project into corresponding QML-files or SLD-files.
+homepage=
+tracker=https://github.com/ssrebelious/QGIS_bulk_style_export/issues
+repository=https://github.com/ssrebelious/QGIS_bulk_style_export
+category=
+icon=icon.png
+# experimental flag
+experimental=False
+      
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+      
+      
